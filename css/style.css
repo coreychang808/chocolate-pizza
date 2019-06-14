@@ -1,0 +1,52 @@
+header {
+  background: #ccc;
+  margin: 1em auto;
+  overflow:hidden;
+  width:  1024px;
+}
+
+main {
+  border: 1px solid black;
+  margin: auto;
+  height: 200px;
+  overflow:auto;
+  padding: 2em;
+  width: 960px;
+  
+  
+}
+
+
+img { 
+  display: inline-block;
+  float:left;
+}
+
+ul {
+  height: 70px;
+  float:right;
+  
+}
+
+li {
+  background: #eee;
+  border: 1px solid black;
+  float:right;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px;
+  text-align:center;
+  width: 110px;
+}
+
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] ~ div {
+  display:none;
+}
+
+input[type=checkbox]:checked ~ div {
+  display:block;
+}
