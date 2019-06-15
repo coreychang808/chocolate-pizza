@@ -1,52 +1,84 @@
-header {
-  background: #ccc;
-  margin: 1em auto;
-  overflow:hidden;
-  width:  1024px;
+
+body {
+  width: 960px; 
+  background: white; 
+  color: black; 
+  margin: auto; 
+}
+
+nav {
+  background: white; 
+  float: left; 
+  width: 100%;
+}
+
+#logo {
+  width: 20%;
+  float: left;
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px; 
+}
+
+#tagline {
+  width: 20%;
+  color: lightgray;
+  }
+
+p1 {
+  color: black; 
+  height: 35px; 
+  width: 100%;
+  text-align: left;
+}
+
+h1 {
+  float: left;
+  font-size: 40px; 
+  font-family: 'Oswald', sans-serif;
+  
 }
 
 main {
-  border: 1px solid black;
-  margin: auto;
-  height: 200px;
-  overflow:auto;
-  padding: 2em;
-  width: 960px;
-  
-  
-}
+ text-align: center; 
 
-
-img { 
-  display: inline-block;
-  float:left;
 }
 
 ul {
-  height: 70px;
-  float:right;
-  
+  position: relative;
+  width: 50%;
+  margin: 0; 
+  padding: 20px; 
+  text-align: right; 
+ /* display: inline-block; */
+  float: right;
+
 }
 
 li {
-  background: #eee;
-  border: 1px solid black;
-  float:right;
-  height: 50px;
-  line-height: 50px;
-  margin: 10px;
-  text-align:center;
-  width: 110px;
+  margin: .5px;
+  border: .5px; 
+  padding: .5px; 
+  float: right; 
 }
 
-input[type=checkbox] {
-  display:none;
+#rss {
+  margin-left: 7px;
 }
 
-input[type=checkbox] ~ div {
-  display:none;
+#date {
+  float: left; 
+  color: lightgray;
 }
 
-input[type=checkbox]:checked ~ div {
-  display:block;
+#lrglogo {
+  float: left;
 }
+
+div {
+  width: 100%;
+}
+
+#print {
+  float: right; 
+}
+
