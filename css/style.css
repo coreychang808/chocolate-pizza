@@ -1,0 +1,72 @@
+
+
+.listCheck{
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.list1 {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 8%;
+    text-align: left;
+    width: 80%; 
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.list2 {
+    position: absolute;
+    margin: 0 auto;
+    left: 40;
+    right: 0;
+    top: 7%;
+    text-align: left;
+    width: 45%; 
+    font-size: 30px;
+    line-height: 37px;
+}
+
+input[type=checkbox]:checked + label.checkbox{
+    text-decoration: line-through;
+  }
+
+input[type='checkbox'] {
+    /* -webkit-appearance:none; */
+    width:20px;
+    height:20px;
+    background:white;
+    border-radius:2px;
+    border:1px solid #555;
+}
+
+/* hr {
+    display:block;
+    border:0px;
+    height:10px;
+    background-image:url("./img/hr-img");
+} */
+
+.topFooter{
+    widows: 100%;
+    display: flex;
+}
+
+.bottomFoot {
+    text-align: center;
+    margin-top:25px;
+    border: 1px solid black;
+    padding-top;
+}
+
+.footPic{
+    text-align: center;
+    float: inherit;
+}
+
+.wholebottomFooter {
+    width: 100%;
+}
